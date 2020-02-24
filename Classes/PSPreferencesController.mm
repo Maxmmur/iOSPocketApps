@@ -17,11 +17,11 @@
 
 //sections
 #define DISPLAY_SECTION		0
-#define MODULE_SECTION		4
-#define STRONGS_SECTION		1
-#define MORPH_SECTION		2
+#define MODULE_SECTION		2//was 4
+#define STRONGS_SECTION		//was 1
+#define MORPH_SECTION		//was 2
 #define LANG_SECTION		44
-#define DEVICE_SECTION		3
+#define DEVICE_SECTION		1//was 3
 #define PREF__SECTIONS		5//total sections in table
 
 //rows in DISPLAY section
