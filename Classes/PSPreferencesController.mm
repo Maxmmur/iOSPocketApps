@@ -129,9 +129,9 @@
 		case MODULE_SECTION:
 			//return [[[[PSModuleController defaultModuleController] swordManager] listModules] count];
 			return MODULE__ROWS;
-		case STRONGS_SECTION:
+//		case STRONGS_SECTION:
 			return STRONGS__ROWS;
-		case MORPH_SECTION:
+//		case MORPH_SECTION:
 			return MORPH__ROWS;
 		case LANG_SECTION:
 			return LANG__ROWS;
@@ -147,9 +147,9 @@
 			return NSLocalizedString(@"PreferencesDisplayPreferencesTitle", @"Display Preferences");
 		case MODULE_SECTION:
 			return NSLocalizedString(@"PreferencesModulePreferencesTitle", @"Module Preferences");
-		case STRONGS_SECTION:
+//		case STRONGS_SECTION:
 			return NSLocalizedString(@"PreferencesStrongsPreferencesTitle", @"Strong's Preferences");
-		case MORPH_SECTION:
+//		case MORPH_SECTION:
 			return NSLocalizedString(@"PreferencesMorphologyPreferencesTitle", @"Morphology Preferences");
 		case LANG_SECTION:
 			return NSLocalizedString(@"PreferencesOriginalLanguagePreferencesTitle", @"Original Language");
@@ -294,7 +294,7 @@
 					break;
 			}
 			break;
-		case STRONGS_SECTION :
+//		case STRONGS_SECTION :
 			switch (indexPath.row) {
 				case STRONGS_DISPLAY_ROW :
 				{
@@ -315,7 +315,7 @@
 					break;
 			}
 			break;
-		case MORPH_SECTION :
+//		case MORPH_SECTION :
 			switch (indexPath.row) {
 				case MORPH_DISPLAY_ROW :
 				{
@@ -484,7 +484,7 @@
 //					break;
 //			}
 //			break;
-		case STRONGS_SECTION :
+//		case STRONGS_SECTION :
 			switch (indexPath.row) {
 				case STRONGS_DISPLAY_ROW :
 				{
@@ -514,7 +514,7 @@
 					break;
 			}
 			break;
-		case MORPH_SECTION :
+//		case MORPH_SECTION :
 			switch (indexPath.row) {
 				case MORPH_DISPLAY_ROW :
 				{
@@ -691,7 +691,7 @@
 					break;
 			}
 			break;
-		case STRONGS_SECTION:
+//		case STRONGS_SECTION:
 			switch (indexPath.row) {
 				case STRONGS_G_ROW:
 				{
@@ -713,7 +713,7 @@
 					break;
 			}
 			break;
-		case MORPH_SECTION:
+//		case MORPH_SECTION:
 			switch (indexPath.row) {
 				case MORPH_G_ROW:
 				{
@@ -744,7 +744,7 @@
 					break;
 			}
 			break;
-		case STRONGS_SECTION:
+//		case STRONGS_SECTION:
 			switch (indexPath.row) {
 				case STRONGS_G_ROW:
 				{
@@ -766,7 +766,7 @@
 					break;
 			}
 			break;
-		case MORPH_SECTION:
+//		case MORPH_SECTION:
 			switch (indexPath.row) {
 				case MORPH_G_ROW:
 				{
