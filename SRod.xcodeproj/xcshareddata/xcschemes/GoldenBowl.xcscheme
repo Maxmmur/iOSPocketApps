@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "GoldenBowl.app"
-               BlueprintName = "GoldenBowl"
-               ReferencedContainer = "container:GoldenBowl.xcodeproj">
+               BuildableName = "ShepherdsRod.app"
+               BlueprintName = "SRod"
+               ReferencedContainer = "container:SRod.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "GoldenBowl.app"
-            BlueprintName = "GoldenBowl"
-            ReferencedContainer = "container:GoldenBowl.xcodeproj">
+            BuildableName = "ShepherdsRod.app"
+            BlueprintName = "SRod"
+            ReferencedContainer = "container:SRod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "GoldenBowl.app"
-            BlueprintName = "GoldenBowl"
-            ReferencedContainer = "container:GoldenBowl.xcodeproj">
+            BuildableName = "ShepherdsRod.app"
+            BlueprintName = "SRod"
+            ReferencedContainer = "container:SRod.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
