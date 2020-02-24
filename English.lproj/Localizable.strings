@@ -1,10 +1,10 @@
 /*
- * GoldenBowl - A frontend for viewing SWORD project modules on iOS
+ * PocketSword - A frontend for viewing SWORD project modules on iOS
  *
  * Copyright 2008-2012 CrossWire Bible Society – http://www.crosswire.org
- *	CrossWire Bible Society
- *	P. O. Box 2528
- *	Tempe, AZ  85280-2528
+ *    CrossWire Bible Society
+ *    P. O. Box 2528
+ *    Tempe, AZ  85280-2528
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms of the GNU General Public License as published by the
@@ -53,7 +53,7 @@
 "WiFiNoConnection" = "Wifi: No Connection\n";
 "NoNetworkConnection" = "No network connection available.";
 
-"manualInstallHelp" = "To manually install a module, you need to point a web browser to one of the locations below and then follow the prompts there (or just search for your iPhone/iPad using Bonjour!).  However, it is suggested that you use the built-in module installer - this manual installer is only provided for those users who may experience problems downloading huge modules.";
+"manualInstallHelp" = "To manually install a module you need to point a web browser to one of the locations below and then follow the prompts there (or just search for your iPhone using Bonjour!).  However, it is suggested that you use the built-in module installer - this manual installer is only provided for those users who create their own modules.";
 "InstallManagerDisabled" = "disabled...";
 "InstallTitle" = "Install?";
 "files" = "files";
@@ -77,7 +77,7 @@
 "PreferencesRedLetterNote" = "Note that Red Letter mode is only available for certain modules";//change
 "PreferencesDisableAutoLockTitle" = "Disable auto-sleep";
 "PreferencesModuleMaintainerModeTitle" = "Module Maintainer Mode";
-"PreferencesModuleMaintainerModeNote" = "Note that Module Maintainer Mode is for those users who may experience problems downloading huge modules & require an alternative method to manually install them.  For all other users, it is recommended that you use the built-in module downloader to access official modules provided by GADSDA.";
+"PreferencesModuleMaintainerModeNote" = "Note that Module Maintainer Mode is for those users who create their own modules & require a method to manually install their own modules.  For all other users, it is suggested that you use the built-in module downloader to access official modules provided by CrossWire.";
 
 "AboutTitle" = "About";//change
 
@@ -95,9 +95,9 @@
 "MMMBonjourLoading" = "Bonjour Loading...";
 "MMMIPLoading" = "IP Loading...";
 
-"Biblical Texts" = "Biblical Texts";
-"Commentaries" = "Commentaries";
-"Lexicons / Dictionaries" = "Charts / Dictionaries";
+"Biblical Texts" = "Davidian Bibles";//changed!
+"Commentaries" = "SRod Commentaries";//changed!
+"Lexicons / Dictionaries" = "Lexicons / Dictionaries";
 "Generic Books" = "Generic Books";
 "Daily Devotional" = "Daily Devotionals";
 "Glossaries" = "Glossaries";
@@ -118,7 +118,7 @@
 "NoSearchIndexMsg" = "You don't have a search index installed for this module.  Do you wish to check for available search indices now?";
 "SearchDownloaderTitle" = "Search Downloader";
 "FontPreferenceTitle" = "Font";
-"EmailUsButton" = "Feedback";
+"EmailUsButton" = "Email Us";
 "NoSearchIndexInstalled" = "No Search Index Installed";
 "SearchResults" = "Results";
 
@@ -149,7 +149,7 @@
 "NoGreekStrongsNumbersModuleInstalled" = "No Greek Strong's Numbers Lexicon installed. Please install one (such as 'strongsgreek') via the More->Downloads tab.";
 
 "NoMorphGreekModuleInstalled" = "No Greek Morphological Analysis Codes Lexicon installed. Please install one (such as 'Robinson') via the More->Downloads tab";
-"MorphHebrewNotSupported" = "Unfortunately, Morphological Analysis Codes are only currently available for Greek words.  If you have the language ability and are willing to help bring this feature to GoldenBowl, please take a look at <br /> openscriptures.org<br />and join the discussion group there.";
+"MorphHebrewNotSupported" = "Unfortunately, Morphological Analysis Codes are only currently available for Greek words.  If you have the language ability and are willing to help bring this feature to PocketSword, please take a look at <br /> openscriptures.org<br />and join the discussion group there.";
 
 "AboutModuleFeaturesTitle" = "Module Features";
 "AboutModuleContainsStrongsNumbers" = "Contains Strong's Numbers";
@@ -180,7 +180,7 @@
 
 // new v1.2.2 strings:
 "ModuleLockedTitle" = "Module Locked";
-"ModuleLockedQuestion" = "This module is currently locked.  You must purchase a key to unlock this module.  Unfortunately, you can't do this through GoldenBowl at this time.  Please read the description of this module to find out how to purchase this module.\n  If you have already purchased a key, you can input your key to unlock this module.  Do you want to input your key now?";
+"ModuleLockedQuestion" = "This module is currently locked.  You must purchase a key to unlock this module.  Unfortunately, you can't do this through PocketSword at this time.  Please read the description of this module to find out how to purchase this module.\n  If you have already purchased a key, you can input your key to unlock this module.  Do you want to input your key now?";
 "ModuleEnterKeyTitle" = "Enter Key:";
 "ModuleUnlockScreenTitle" = "Unlock Module";
 "ModuleUnlockHelpText" = "To unlock this module, please enter the key you were sent when you bought this module.  Press Done to test the key and then press Save if it looks correct.";
@@ -206,7 +206,7 @@
 "AddHTTPSourceTitle" = "New HTTP Source";
 "FillInAllFieldsMessage" = "You must fill in all the fields!";
 "Warning" = "Warning";
-"CannotVerifyInstallSourceWarning" = "GoldenBowl cannot verify that this is a valid Source of modules.  Do you wish to save it anyway?";
+"CannotVerifyInstallSourceWarning" = "PocketSword cannot verify that this is a valid Source of modules.  Do you wish to save it anyway?";
 
 // new v1.3.2 strings:
 "AboutModuleLocked" = "** Please note that this module is currently locked and you will need to purchase an unlock key from the module publisher's website.  See below for more details. **";
@@ -225,7 +225,7 @@
 "ModuleLanguagesHeaderText" = "Select Language:";
 "PreferencesModulePreferencesTitle" = "Module Preferences";
 "PreferencesFullscreenModeTitle" = "Automatic Fullscreen Mode";
-"PreferencesFullscreenNote" = "With Automatic Fullscreen Mode disabled you can still switch to and from fullscreen with a 2-finger tap in the Bible and GoldenBowl tabs.";
+"PreferencesFullscreenNote" = "With Automatic Fullscreen Mode disabled you can still switch to and from fullscreen with a 2-finger tap in the Bible and Commentary tabs.";
 
 // new v1.3.4 strings:
 "PreferencesRotationLock" = "Rotation Lock";

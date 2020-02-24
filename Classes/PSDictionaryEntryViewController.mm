@@ -90,7 +90,7 @@
 		NSDictionary *rData = [PSModuleController dataForLink: [request URL]];
 		NSString *entry = nil;
 		
-		if(rData && ![[rData objectForKey:ATTRTYPE_MODULE] isEqualToString:@"Bible"] && ![[rData objectForKey:ATTRTYPE_MODULE] isEqualToString:@""] && ![[rData objectForKey:ATTRTYPE_ACTION] isEqualToString:@"showImage"]) {
+		if(rData && ![[rData objectForKey:ATTRTYPE_MODULE] isEqualToString:@"SOP"] && ![[rData objectForKey:ATTRTYPE_MODULE] isEqualToString:@""] && ![[rData objectForKey:ATTRTYPE_ACTION] isEqualToString:@"showImage"]) {
 			//
 			// it's a dictionary entry to show. (&& it's not a link on an image.)
 			//
