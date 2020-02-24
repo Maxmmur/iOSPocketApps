@@ -3659,7 +3659,7 @@
 					"-DDEBUG",
 					"-DEXCLUDEXZ",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.Srod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.SRod;
 				PRODUCT_NAME = ShepherdsRod;
 			};
 			name = Debug;
@@ -3700,7 +3700,7 @@
 					"-DUSELUCENE",
 					"-DEXCLUDEXZ",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.Srod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.SRod;
 				PRODUCT_NAME = ShepherdsRod;
 			};
 			name = Release;
@@ -3883,7 +3883,7 @@
 					"-DUSELUCENE",
 					"-DEXCLUDEXZ",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.Srod;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Gadsda.SRod;
 				PRODUCT_NAME = ShepherdsRod;
 			};
 			name = Distribution;

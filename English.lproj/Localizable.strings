@@ -53,7 +53,7 @@
 "WiFiNoConnection" = "Wifi: No Connection\n";
 "NoNetworkConnection" = "No network connection available.";
 
-"manualInstallHelp" = "To manually install a module you need to point a web browser to one of the locations below and then follow the prompts there (or just search for your iPhone using Bonjour!).  However, it is suggested that you use the built-in module installer - this manual installer is only provided for those users who create their own modules.";
+"manualInstallHelp" = "To manually install a module, you need to point a web browser to one of the locations below and then follow the prompts there (or just search for your iPhone/iPad using Bonjour!).  However, it is suggested that you use the built-in module installer - this manual installer is only provided for those users who may experience problems downloading huge modules.";
 "InstallManagerDisabled" = "disabled...";
 "InstallTitle" = "Install?";
 "files" = "files";
@@ -77,13 +77,13 @@
 "PreferencesRedLetterNote" = "Note that Red Letter mode is only available for certain modules";//change
 "PreferencesDisableAutoLockTitle" = "Disable auto-sleep";
 "PreferencesModuleMaintainerModeTitle" = "Module Maintainer Mode";
-"PreferencesModuleMaintainerModeNote" = "Note that Module Maintainer Mode is for those users who create their own modules & require a method to manually install their own modules.  For all other users, it is suggested that you use the built-in module downloader to access official modules provided by CrossWire.";
+"PreferencesModuleMaintainerModeNote" = "Note that Module Maintainer Mode is for those users who may experience problems downloading huge modules & require an alternative method to manually install them.  For all other users, it is recommended that you use the built-in module downloader to access official modules provided by GADSDA.";
 
 "AboutTitle" = "About";//change
 
-"TabBarTitleBible" = "Bible";
-"TabBarTitleCommentary" = "GoldenBowl";//changed!
-"TabBarTitleDictionary" = "Dictionary";
+"TabBarTitleBible" = "SRod";
+"TabBarTitleCommentary" = "SOPExcerpts";//changed!
+"TabBarTitleDictionary" = "Resources";
 "TabBarTitleModules" = "Modules";
 "TabBarTitlePreferences" = "Preferences";
 "TabBarTitleAbout" = "About";
@@ -95,9 +95,9 @@
 "MMMBonjourLoading" = "Bonjour Loading...";
 "MMMIPLoading" = "IP Loading...";
 
-"Biblical Texts" = "Davidian Bibles";//changed!
-"Commentaries" = "SRod Commentaries";//changed!
-"Lexicons / Dictionaries" = "Lexicons / Dictionaries";
+"Biblical Texts" = "SRod Modules";//changed!
+"Commentaries" = "SOP Exerpts";//changed!
+"Lexicons / Dictionaries" = "Charts / Dictionaries";
 "Generic Books" = "Generic Books";
 "Daily Devotional" = "Daily Devotionals";
 "Glossaries" = "Glossaries";
@@ -106,8 +106,8 @@
 "Maps" = "Maps";
 "Images" = "Images";
 
-"BibleHistoryTitle" = "Bible History";
-"CommentaryHistoryTitle" = "Commentary History";
+"BibleHistoryTitle" = "SRod History";
+"CommentaryHistoryTitle" = "SOP History";
 
 "None" = "None";
 "CloseButtonTitle" = "Close";
@@ -149,14 +149,14 @@
 "NoGreekStrongsNumbersModuleInstalled" = "No Greek Strong's Numbers Lexicon installed. Please install one (such as 'strongsgreek') via the More->Downloads tab.";
 
 "NoMorphGreekModuleInstalled" = "No Greek Morphological Analysis Codes Lexicon installed. Please install one (such as 'Robinson') via the More->Downloads tab";
-"MorphHebrewNotSupported" = "Unfortunately, Morphological Analysis Codes are only currently available for Greek words.  If you have the language ability and are willing to help bring this feature to PocketSword, please take a look at <br /> openscriptures.org<br />and join the discussion group there.";
+"MorphHebrewNotSupported" = "Unfortunately, Morphological Analysis Codes are only currently available for Greek words.  If you have the language ability and are willing to help bring this feature to GoldenBowl, please take a look at <br /> openscriptures.org<br />and join the discussion group there.";
 
 "AboutModuleFeaturesTitle" = "Module Features";
 "AboutModuleContainsStrongsNumbers" = "Contains Strong's Numbers";
 "AboutModuleContainsMorphTags" = "Contains Morphological tags";
 "AboutModuleContainsFootnotes" = "Contains Footnotes";
 "AboutModuleContainsHeadings" = "Contains Headings";
-"AboutModuleContainsRedLetterWords" = "Words of Christ in Red";
+"AboutModuleContainsRedLetterWords" = "Words in Red";
 "AboutModuleContainsVariants" = "Contains Textual Variants";
 "AboutModuleContainsGreekAccents" = "Contains Greek Accents";
 "AboutModuleContainsScriptref" = "Contains Scriptural Cross-References";
@@ -186,7 +186,7 @@
 "ModuleUnlockHelpText" = "To unlock this module, please enter the key you were sent when you bought this module.  Press Done to test the key and then press Save if it looks correct.";
 "RefSelectorBookTitle" = "Select Book";
 "RefSelectorChapterTitle" = "Chapter %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
-"RefSelectorVerseTitle" = "Verse %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
+"RefSelectorVerseTitle" = "Paragraph %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
 "RefSelectorBackButtonTitle" = "Back";
 
 // new v1.3.0 strings:
@@ -206,7 +206,7 @@
 "AddHTTPSourceTitle" = "New HTTP Source";
 "FillInAllFieldsMessage" = "You must fill in all the fields!";
 "Warning" = "Warning";
-"CannotVerifyInstallSourceWarning" = "PocketSword cannot verify that this is a valid Source of modules.  Do you wish to save it anyway?";
+"CannotVerifyInstallSourceWarning" = "SRod cannot verify that this is a valid Source of modules.  Do you wish to save it anyway?";
 
 // new v1.3.2 strings:
 "AboutModuleLocked" = "** Please note that this module is currently locked and you will need to purchase an unlock key from the module publisher's website.  See below for more details. **";
@@ -214,18 +214,18 @@
 "ConfirmUpgrade" = "Would you like to replace this module with the currently available version?";
 
 "VerseContextualMenuAddBookmark" = "Add Bookmark";
-"VerseContextualMenuCommentary" = "View in Commentary";
+"VerseContextualMenuCommentary" = "View in SOP";
 
 // new v1.3.3 strings:
-"VoiceOverPreviousChapterButton" = "Previous Chapter";
-"VoiceOverNextChapterButton" = "Next Chapter";
+"VoiceOverPreviousChapterButton" = "Previous Page";
+"VoiceOverNextChapterButton" = "Next Page";
 "VoiceOverHistoryAndSearchButton" = "History and Search";
 "InstallManagerDownloadsHint" = "You may download additional modules from any of the below module sources:";
 "ModuleTypesHeaderText" = "Select Module Type:";
 "ModuleLanguagesHeaderText" = "Select Language:";
 "PreferencesModulePreferencesTitle" = "Module Preferences";
 "PreferencesFullscreenModeTitle" = "Automatic Fullscreen Mode";
-"PreferencesFullscreenNote" = "With Automatic Fullscreen Mode disabled you can still switch to and from fullscreen with a 2-finger tap in the Bible and Commentary tabs.";
+"PreferencesFullscreenNote" = "With Automatic Fullscreen Mode disabled you can still switch to and from fullscreen with a 2-finger tap in the SRod and SOP tabs.";
 
 // new v1.3.4 strings:
 "PreferencesRotationLock" = "Rotation Lock";
@@ -246,14 +246,14 @@
 "BookmarksConfirmDeleteFolderMessage" = "Are you sure you want to delete the folder '%@' and all the bookmarks it contains?";//keep the '%@' bit in there - it will be replaced with the folder's name!
 "BookmarksAddFolderFolderName" = "Folder Name:";
 "BookmarksAddFolderHighlightColour" = "Highlight Colour:";
-"BookmarksAddBookmarkVerseTitle" = "Verse";
+"BookmarksAddBookmarkVerseTitle" = "Paragraph";
 "BookmarksAddBookmarkDescriptionTitle" = "Description";
 "BookmarksAddBookmarkFolderTitle" = "Folder";
 
 "BookmarksAddFolderButton" = "Add Folder";
 "BookmarksEditFolderTitle" = "Edit Folder";
 "BookmarksAddBookmarkHereButton" = "Add Bookmark here";
-"BookmarksAddBookmarkDescription" = "To add a bookmark for a verse, tap on the verse number in the Bible tab and select 'Add Bookmark'";
+"BookmarksAddBookmarkDescription" = "To add a bookmark for a paragraph, tap on the paragraph number in the SRod tab and select 'Add Bookmark'";
 "BookmarksAddFolderDescription" = "To add a folder, tap on the Edit button";
 "BookmarksImportedFolderName" = "Imported";// this is the folder name that the user's old bookmarks will be imported into when they first use v1.4.0
 "BookmarksCreatedTitle" = "Created:";//created date of the bookmark/folder.
@@ -272,7 +272,7 @@
 "SearchFuzzySectionHeader" = "Fuzzy Search:";// see the SearchFuzzySectionFooter for a description of what this search does.
 
 "SearchTypeSectionFooter" = "";// currently empty.
-"SearchRangeSectionFooter" = "Select which part of the Bible you wish to search in.";
+"SearchRangeSectionFooter" = "Select which part of the SRod you wish to search in.";
 "SearchStrongsSectionFooter" = "You can search for occurrences of Greek or Hebrew Strong's Numbers.\nTo search for the Greek Number 0011 (Abraham) enter G11.\nTo search for the Hebrew Number 0430 (God) enter H430.";
 "SearchFuzzySectionFooter" = "Using Fuzzy Search, if you search for:\nrev\nthe search results will include all words that start with 'rev'.";
 
@@ -282,17 +282,17 @@
 "SearchTypeAnyRowShort" = "Any word";
 "SearchTypeExactRow" = "Match EXACT phrase";
 "SearchTypeExactRowShort" = "Exact phrase";
-"SearchRangeAllRow" = "Entire Bible";
-"SearchRangeAllRowShort" = "Entire Bible";
-"SearchRangeOTRow" = "Old Testament";
-"SearchRangeOTRowShort" = "OT";
-"SearchRangeNTRow" = "New Testament";
-"SearchRangeNTRowShort" = "NT";
+"SearchRangeAllRow" = "Entire SRod";
+"SearchRangeAllRowShort" = "Entire SRod";
+"SearchRangeOTRow" = "Volumes and Tracts";
+"SearchRangeOTRowShort" = "VT";
+"SearchRangeNTRow" = "Periodicals";
+"SearchRangeNTRowShort" = "PE";
 "SearchStrongsRow" = "Search for a Strong's Number";
 "On" = "On";
 "Off" = "Off";
 "SearchStartSearchButton" = "Start Search";
-"PreferencesModuleSectionNote" = "Module-specific display preferences (such as Strong's Numbers, Red Letter mode, etc) are set for each individual module. To change them, select your module from the list at the bottom of this screen.";
+"PreferencesModuleSectionNote" = "Module-specific display preferences (such as red letters, etc) are set for each individual module. To change them, select your module from the list at the bottom of this screen.";
 
 // new v1.4.2 strings:
 "HistoryClearButtonTitle" = "Clear All";
