@@ -71,7 +71,7 @@
 "PreferencesDevicePreferencesTitle" = "Device Preferences";
 "PreferencesFontSizeTitle" = "Font Size";
 "PreferencesNightModeTitle" = "Night Mode";
-"PreferencesVPLTitle" = "Verse Per Line";//change
+"PreferencesVPLTitle" = "Paragraph Per Line";//change
 "PreferencesFontTitle" = "Font";
 "PreferencesRedLetterTitle" = "Red Letter";//change
 "PreferencesRedLetterNote" = "Note that Red Letter mode is only available for certain modules";//change
@@ -82,7 +82,7 @@
 "AboutTitle" = "About";//change
 
 "TabBarTitleBible" = "SRod";
-"TabBarTitleCommentary" = "SOPExcerpts";//changed!
+"TabBarTitleCommentary" = "SOP";//changed!
 "TabBarTitleDictionary" = "Resources";
 "TabBarTitleModules" = "Modules";
 "TabBarTitlePreferences" = "Preferences";
@@ -174,7 +174,7 @@
 "NotSupported" = "This module is not currently supported";
 "ConfirmDeleteTitle" = "Remove?";
 "ConfirmDeleteQuestion" = "Are you sure you wish to remove this module?";
-"EmptyChapterWarning" = "This chapter is empty for this module.";
+"EmptyChapterWarning" = "This page is empty for this module.";
 "ModuleNotInstalled" = "is not installed.";
 "AboutModuleCurrentVersion" = "Installed Version: ";
 
@@ -185,7 +185,7 @@
 "ModuleUnlockScreenTitle" = "Unlock Module";
 "ModuleUnlockHelpText" = "To unlock this module, please enter the key you were sent when you bought this module.  Press Done to test the key and then press Save if it looks correct.";
 "RefSelectorBookTitle" = "Select Book";
-"RefSelectorChapterTitle" = "Chapter %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
+"RefSelectorChapterTitle" = "Page %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
 "RefSelectorVerseTitle" = "Paragraph %d"; // keep the '%d' bit in there, as that is where the number will be inserted. So you may need to move it to the appropriate spot depending on how your language displays "chapter 1"
 "RefSelectorBackButtonTitle" = "Back";
 
