@@ -110,7 +110,7 @@
 	serverTextField.delegate = self;
 	
 	pathTextField = [[UITextField alloc] initWithFrame:fieldFrames];
-	[pathTextField setPlaceholder:@"e.g. /goldenbowl"];
+	[pathTextField setPlaceholder:@"e.g. /srod"];
 	pathTextField.keyboardType = UIKeyboardTypeURL;
 	pathTextField.autocapitalizationType = UITextAutocapitalizationTypeNone;
 	pathTextField.autocorrectionType = UITextAutocorrectionTypeNo;
