@@ -1,10 +1,11 @@
 /******************************************************************************
  *
- *  canon_mt.h -	Versification data for the Masoretic Text (MT) system
+ *  canon_calvin.h -	Versification data for French Bibles de Genève
+ *                      (Bibles de Genève, Épée, Martin, Ostervald)
  *
- * $Id: canon_mt.h 2915 2013-07-23 16:55:54Z chrislit $
+ *  $Id$
  *
- * Copyright 2009-2013 CrossWire Bible Society (http://www.crosswire.org)
+ * Copyright 1998-2013 CrossWire Bible Society (http://www.crosswire.org)
  *	CrossWire Bible Society
  *	P. O. Box 2528
  *	Tempe, AZ  85280-2528
@@ -17,63 +18,53 @@
  * WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
+ *
  */
 
-#ifndef CANON_MT_H
-#define CANON_MT_H
+#ifndef CANON_CALVIN_H
+#define CANON_CALVIN_H
 
 SWORD_NAMESPACE_START
 
 
-// Versification system: MT
-// Book order: Gen Exod Lev Num Deut Josh Judg 1Sam 2Sam 1Kgs 2Kgs Isa Jer Ezek Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Ps Job Prov Ruth Song Eccl Lam Esth Dan Ezra Neh 1Chr 2Chr
+// Versification system: Calvin
+
+/* Book order:
+   Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr
+   Ezra Neh Esth Job Ps Prov Eccl Song Isa Jer Lam Ezek Dan Hos Joel
+   Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Matt Mark Luke John
+   Acts Rom 1Cor 2Cor Gal Eph Phil Col 1Thess 2Thess 1Tim 2Tim Titus
+   Phlm Heb Jas 1Pet 2Pet 1John 2John 3John Jude Rev
+*/
+
+/* The first Bible de Genève, a revision of the Bible d'Olivétan, was
+   released in 1560 by Jean Calvin. The Bible d'Olivétan was printed
+   without verse division.
+   Because Bibles employing this versification system, introduced by
+   Robert 'Stephanus' Estienne in 1553 differ subtly in versification,
+   this is not based on any single edition, although some may
+   eventually match, but on multiple editions of these bibles.
+*/
+
+// Apocryphal books are not included.
+
 
 /******************************************************************************
- * [on]tbooks_mt - initialize static instance for all canonical
+ * [on]tbooks_calvin - initialize static instance for all canonical
  *		 text names and chapmax
- */
-struct sbook otbooks_mt[] = {
-    {"Shepherd's Rod Vol. 1", "Sr1", "Sr1", 255},
-    {"Shepherd's Rod Vol. 2", "Sr2", "Sr2", 255},
-    {"Tract No. 1", "Tn1", "Tn1", 56},
-    {"Tract No. 2", "Tn2", "Tn2", 69},
-    {"Tract No. 3", "Tn3", "Tn3", 125},
-    {"Tract No. 4", "Tn4", "Tn4", 70},
-    {"Tract No. 5", "Tn5", "Tn5", 118},
-    {"Tract No. 6", "Tn6", "Tn6", 80},
-    {"Tract No. 7", "Tn7", "Tn7", 77},
-    {"Tract No. 8", "Tn8", "Tn8", 110},
-    {"Tract No. 9", "Tn9", "Tn9", 76},
-    {"Tract No. 10", "Tn10", "Tn10", 46},
-    {"Tract No. 11", "Tn11", "Tn11", 12},
-    {"Tract No. 12", "Tn12", "Tn12", 93},
-    {"Tract No. 13", "Tn13", "Tn13", 58},
-    {"Tract No. 14", "Tn14", "Tn14", 56},
-    {"Tract No. 15", "Tn15", "Tn15", 91},
-    {"Answerer 1", "Abn1", "Abn1", 96},
-    {"Answerer 2", "Abn2", "Abn2", 96},
-    {"Answerer 3", "Abn3", "Abn3", 96},
-    {"Answerer 4", "Abn4", "Abn4", 96},
-    {"Answerer 5", "Abn5", "Abn5", 95},
-    {"1950 Gen Conf Special", "Gcs", "Gcs", 44},
-    {"White House Recruiter", "Whr", "Whr", 75},
-    {"SRod Vol. 1 Pocket Ed.", "Sr1p", "Sr1p", 96},
-    {"The Leviticus", "Lvt", "Lvt", 102},
-    {"Fundamental Beliefs", "Fb", "Fb", 36},
-    {"Entering Wedge", "Ew", "Ew", 102},
-    {"Military Stand", "Mils", "Mils", 17},
-    {"Mt. Carmel Training Center", "Mctc", "Mctc", 29},
-    {"Un-Adventist Activities", "Uaa", "Uaa", 31},
-    {"", "", "", 0}
-};
+ *
+ * for otbooks_calvin, use otbooks
+ *
+ * for ntbooks_calvin, use ntbooks
+ *
+ ******************************************************************************/
 
-// for ntbooks_mt, use ntbooks_null
 
 /******************************************************************************
  *	Maximum verses per chapter
  */
 
-int vm_mt[] = {
+int vm_calvin[] = {
     // Shepherd's Rod Vol. 1
     2, 1, 1, 1, 2, 17, 38, 40, 39, 38
     , 12, 1, 4, 3, 4, 3, 4, 1, 3, 1
@@ -754,8 +745,107 @@ int vm_mt[] = {
     4, 6, 5, 7, 4
 };
 
+unsigned char mappings_calvin[] = {
+    0,
+    4,   13,  1,   0,   12,  16,  0,
+    4,   13,  2,   0,   13,  1,   0,
+    4,   30,  1,   0,   29,  40,  0,
+    4,   30,  2,   0,   30,  1,   0,
+    9,   20,  43,  0,   20,  42,  0,
+    9,   24,  1,   0,   23,  29,  0,
+    9,   24,  2,   0,   24,  1,   0,
+    11,  22,  44,  0,   22,  43,  0,
+    18,  39,  1,   0,   38,  39,  0,
+    18,  39,  4,   0,   39,  1,   0,
+    18,  39,  34,  0,   40,  1,   0,
+    18,  40,  1,   0,   40,  6,   0,
+    18,  40,  20,  0,   41,  1,   0,
+    18,  41,  1,   0,   41,  10,  0,
+    19,  3,   2,   0,   3,   1,   0,
+    19,  4,   2,   0,   4,   1,   0,
+    19,  5,   2,   0,   5,   1,   0,
+    19,  6,   2,   0,   6,   1,   0,
+    19,  7,   2,   0,   7,   1,   0,
+    19,  8,   2,   0,   8,   1,   0,
+    19,  9,   2,   0,   9,   1,   0,
+    19,  12,  2,   0,   12,  1,   0,
+    19,  18,  2,   0,   18,  1,   0,
+    19,  19,  2,   0,   19,  1,   0,
+    19,  20,  2,   0,   20,  1,   0,
+    19,  21,  2,   0,   21,  1,   0,
+    19,  22,  2,   0,   22,  1,   0,
+    19,  30,  2,   0,   30,  1,   0,
+    19,  31,  2,   0,   31,  1,   0,
+    19,  34,  2,   0,   34,  1,   0,
+    19,  36,  2,   0,   36,  1,   0,
+    19,  38,  2,   0,   38,  1,   0,
+    19,  39,  2,   0,   39,  1,   0,
+    19,  40,  2,   0,   40,  1,   0,
+    19,  41,  2,   0,   41,  1,   0,
+    19,  42,  2,   0,   42,  1,   0,
+    19,  44,  2,   0,   44,  1,   0,
+    19,  45,  2,   0,   45,  1,   0,
+    19,  46,  2,   0,   46,  1,   0,
+    19,  47,  2,   0,   47,  1,   0,
+    19,  48,  2,   0,   48,  1,   0,
+    19,  49,  2,   0,   49,  1,   0,
+    19,  51,  2,   0,   51,  1,   0,
+    19,  51,  3,   0,   51,  1,   0,
+    19,  52,  2,   0,   52,  1,   0,
+    19,  52,  3,   0,   52,  1,   0,
+    19,  53,  2,   0,   53,  1,   0,
+    19,  54,  3,   0,   54,  1,   0,
+    19,  55,  2,   0,   55,  1,   0,
+    19,  56,  2,   0,   56,  1,   0,
+    19,  57,  2,   0,   57,  1,   0,
+    19,  58,  2,   0,   58,  1,   0,
+    19,  59,  2,   0,   59,  1,   0,
+    19,  60,  2,   0,   60,  1,   0,
+    19,  60,  3,   0,   60,  1,   0,
+    19,  61,  2,   0,   61,  1,   0,
+    19,  62,  2,   0,   62,  1,   0,
+    19,  63,  2,   0,   63,  1,   0,
+    19,  64,  2,   0,   64,  1,   0,
+    19,  65,  2,   0,   65,  1,   0,
+    19,  67,  2,   0,   67,  1,   0,
+    19,  68,  2,   0,   68,  1,   0,
+    19,  69,  2,   0,   69,  1,   0,
+    19,  70,  2,   0,   70,  1,   0,
+    19,  75,  2,   0,   75,  1,   0,
+    19,  76,  2,   0,   76,  1,   0,
+    19,  77,  2,   0,   77,  1,   0,
+    19,  80,  2,   0,   80,  1,   0,
+    19,  81,  2,   0,   81,  1,   0,
+    19,  83,  2,   0,   83,  1,   0,
+    19,  84,  2,   0,   84,  1,   0,
+    19,  85,  2,   0,   85,  1,   0,
+    19,  88,  2,   0,   88,  1,   0,
+    19,  89,  2,   0,   89,  1,   0,
+    19,  92,  2,   0,   92,  1,   0,
+    19,  102, 2,   0,   102, 1,   0,
+    19,  108, 2,   0,   108, 1,   0,
+    19,  140, 2,   0,   140, 1,   0,
+    19,  142, 2,   0,   142, 1,   0,
+    21,  12,  1,   0,   11,  9,   0,
+    21,  12,  3,   0,   12,  1,   0,
+    23,  8,   23,  0,   9,   1,   0,
+    23,  9,   1,   0,   9,   2,   0,
+    26,  21,  1,   0,   20,  45,  0,
+    26,  21,  6,   0,   21,  1,   0,
+    28,  12,  1,   0,   11,  12,  0,
+    28,  12,  2,   0,   12,  1,   0,
+    32,  2,   1,   0,   1,   17,  0,
+    32,  2,   2,   0,   2,   1,   0,
+    41,  9,   51,  0,   9,   50,  0,
+    41,  10,  53,  0,   10,  52,  0,
+    44,  19,  40,  0,   19,  41,  0,
+    45,  3,   23,  0,   3,   24,  0,
+    46,  3,   22,  0,   3,   23,  0,
+    64,  1,   15,  0,   1,   14,  0,
+    66,  12,  18,  0,   13,  1,   0,
+    0
+};
 
 SWORD_NAMESPACE_END
-
 
 #endif

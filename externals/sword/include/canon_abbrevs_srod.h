@@ -1,39 +1,23 @@
-/******************************************************************************
- *
- *  canon_abbrevs.h -	Canonical text information to be included by
- *			 VerseKey.cpp
- *
- * $Id: canon_abbrevs.h 2970 2013-08-22 07:03:11Z chrislit $
- *
- * Copyright 2009-2013 CrossWire Bible Society (http://www.crosswire.org)
- *	CrossWire Bible Society
- *	P. O. Box 2528
- *	Tempe, AZ  85280-2528
- *
- * This program is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License as published by the
- * Free Software Foundation version 2.
- *
- * This program is distributed in the hope that it will be useful, but
- * WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
- * General Public License for more details.
- *
- */
+//
+//  canon_abbrevs_srod.h - canonical text information to be included by VerseKey.cpp
+//  PocketSword
+//
+//  Created by Maxwell Murunga on 12/17/19.
+//  Copyright © 2019 CrossWire Bible Society. All rights reserved.
+//
 
-#ifndef CANON_ABBREVS_H
-#define CANON_ABBREVS_H
+#ifndef canon_abbrevs_srod_h
+#define canon_abbrevs_srod_h
 
 SWORD_NAMESPACE_START
 
-
-/******************************************************************************
- *	Abbreviations - MUST be in alphabetical order & by PRIORITY
- *		RULE: first match of entire key
- *			(e.g. key: "1CH"; match: "1CHRONICLES")
+/**
+ *  Abbreviations: MUST be in alphabetical order and by PRIORITY
+ *      RULE: first match of entire key
+ *       eg.
  */
 
-const struct abbrev builtin_abbrevs[] = {
+const struct abbrev builtin_abbrevs_srod[] = {
     {"Shepherd's Rod Vol. 1", "Sr1"},           // Shepherd's Rod Vol. 1
     {"Shepherd's Rod Vol. 2", "Sr2"},           // Shepherd's Rod Vol. 2
     {"Tract No. 1", "Tn1"},           // Tract No. 1
@@ -169,11 +153,9 @@ const struct abbrev builtin_abbrevs[] = {
     {"Jezreel Letter 8", "Jl8"},           // Jezreel Letter 8
     {"Jezreel Letter 9", "Jl9"},           // Jezreel Letter 9
     {"Cert. of Fellowship Letter", "Cfl"},           // Cert. of Fellowship Letter
-     {"", ""}
+     {"", ""}    
 };
-
 
 SWORD_NAMESPACE_END
 
-
-#endif
+#endif /* canon_abbrevs_srod_h */

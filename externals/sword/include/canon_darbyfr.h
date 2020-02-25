@@ -1,10 +1,10 @@
 /******************************************************************************
  *
- *  canon_mt.h -	Versification data for the Masoretic Text (MT) system
+ *  canon_darbyfr.h -	Versification data for the French Darby Bibles
  *
- * $Id: canon_mt.h 2915 2013-07-23 16:55:54Z chrislit $
+ *  $Id$
  *
- * Copyright 2009-2013 CrossWire Bible Society (http://www.crosswire.org)
+ * Copyright 1998-2015 CrossWire Bible Society (http://www.crosswire.org)
  *	CrossWire Bible Society
  *	P. O. Box 2528
  *	Tempe, AZ  85280-2528
@@ -17,63 +17,36 @@
  * WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
  * General Public License for more details.
+ *
  */
 
-#ifndef CANON_MT_H
-#define CANON_MT_H
+#ifndef CANON_DARBYFR_H
+#define CANON_DARBYFR_H
 
 SWORD_NAMESPACE_START
 
 
-// Versification system: MT
-// Book order: Gen Exod Lev Num Deut Josh Judg 1Sam 2Sam 1Kgs 2Kgs Isa Jer Ezek Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Ps Job Prov Ruth Song Eccl Lam Esth Dan Ezra Neh 1Chr 2Chr
+// Versification system: DarbyFR
+// Book order: Gen Exod Lev Num Deut Josh Judg Ruth 1Sam 2Sam 1Kgs 2Kgs 1Chr 2Chr Ezra Neh Esth Job Ps Prov Eccl Song Isa Jer Lam Ezek Dan Hos Joel Amos Obad Jonah Mic Nah Hab Zeph Hag Zech Mal Matt Mark Luke John Acts Rom 1Cor 2Cor Gal Eph Phil Col 1Thess 2Thess 1Tim 2Tim Titus Phlm Heb Jas 1Pet 2Pet 1John 2John 3John Jude Rev
+
+// This versification scheme is based on the French Darby translation.
+
 
 /******************************************************************************
- * [on]tbooks_mt - initialize static instance for all canonical
- *		 text names and chapmax
- */
-struct sbook otbooks_mt[] = {
-    {"Shepherd's Rod Vol. 1", "Sr1", "Sr1", 255},
-    {"Shepherd's Rod Vol. 2", "Sr2", "Sr2", 255},
-    {"Tract No. 1", "Tn1", "Tn1", 56},
-    {"Tract No. 2", "Tn2", "Tn2", 69},
-    {"Tract No. 3", "Tn3", "Tn3", 125},
-    {"Tract No. 4", "Tn4", "Tn4", 70},
-    {"Tract No. 5", "Tn5", "Tn5", 118},
-    {"Tract No. 6", "Tn6", "Tn6", 80},
-    {"Tract No. 7", "Tn7", "Tn7", 77},
-    {"Tract No. 8", "Tn8", "Tn8", 110},
-    {"Tract No. 9", "Tn9", "Tn9", 76},
-    {"Tract No. 10", "Tn10", "Tn10", 46},
-    {"Tract No. 11", "Tn11", "Tn11", 12},
-    {"Tract No. 12", "Tn12", "Tn12", 93},
-    {"Tract No. 13", "Tn13", "Tn13", 58},
-    {"Tract No. 14", "Tn14", "Tn14", 56},
-    {"Tract No. 15", "Tn15", "Tn15", 91},
-    {"Answerer 1", "Abn1", "Abn1", 96},
-    {"Answerer 2", "Abn2", "Abn2", 96},
-    {"Answerer 3", "Abn3", "Abn3", 96},
-    {"Answerer 4", "Abn4", "Abn4", 96},
-    {"Answerer 5", "Abn5", "Abn5", 95},
-    {"1950 Gen Conf Special", "Gcs", "Gcs", 44},
-    {"White House Recruiter", "Whr", "Whr", 75},
-    {"SRod Vol. 1 Pocket Ed.", "Sr1p", "Sr1p", 96},
-    {"The Leviticus", "Lvt", "Lvt", 102},
-    {"Fundamental Beliefs", "Fb", "Fb", 36},
-    {"Entering Wedge", "Ew", "Ew", 102},
-    {"Military Stand", "Mils", "Mils", 17},
-    {"Mt. Carmel Training Center", "Mctc", "Mctc", 29},
-    {"Un-Adventist Activities", "Uaa", "Uaa", 31},
-    {"", "", "", 0}
-};
-
-// for ntbooks_mt, use ntbooks_null
+ * [on]tbooks_darbyfr - initialize static instance for all canonical
+ *                       text names and chapmax
+ *
+ * for otbooks_darbyfr, use otbooks
+ *
+ * for ntbooks_darbyfr, use ntbooks
+ *
+ ******************************************************************************/
 
 /******************************************************************************
  *	Maximum verses per chapter
  */
 
-int vm_mt[] = {
+int vm_darbyfr[] = {
     // Shepherd's Rod Vol. 1
     2, 1, 1, 1, 2, 17, 38, 40, 39, 38
     , 12, 1, 4, 3, 4, 3, 4, 1, 3, 1
@@ -755,7 +728,42 @@ int vm_mt[] = {
 };
 
 
-SWORD_NAMESPACE_END
+unsigned char mappings_darbyfr[] = {
+    0,
+    3,   5,   20,  0,   6,   1,   0,
+    3,   6,   1,   0,   6,   8,   0,
+    4,   13,  1,   0,   12,  16,  0,
+    4,   13,  2,   0,   13,  1,   0,
+    4,   30,  2,   0,   30,  1,   0,
+    5,   28,  69,  0,   29,  1,   0,
+    5,   29,  1,   0,   29,  2,   0,
+    9,   20,  43,  0,   20,  42,  0,
+    9,   24,  1,   0,   23,  29,  0,
+    9,   24,  2,   0,   24,  1,   0,
+    11,  22,  44,  0,   22,  43,  0,
+    18,  39,  1,   0,   38,  39,  0,
+    18,  39,  4,   0,   39,  1,   0,
+    18,  39,  34,  0,   40,  1,   0,
+    18,  40,  1,   0,   40,  6,   0,
+    18,  40,  20,  0,   41,  1,   0,
+    18,  41,  1,   0,   41,  9,   0,
+    18,  41,  1,   0,   41,  10,  0,
+    19,  13,  1,   0,   13,  2,   0,
+    26,  21,  1,   0,   20,  45,  0,
+    26,  21,  6,   0,   21,  1,   0,
+    28,  12,  1,   0,   11,  12,  0,
+    28,  12,  2,   0,   12,  1,   0,
+    32,  2,   1,   0,   1,   17,  0,
+    32,  2,   2,   0,   2,   1,   0,
+    41,  9,   51,  0,   9,   50,  0,
+    43,  1,   39,  0,   1,   38,  0,
+    47,  13,  13,  0,   13,  14,  0,
+    64,  1,   15,  0,   1,   14,  0,
+    66,  12,  18,  0,   13,  1,   0,
+    0
+};
 
+
+SWORD_NAMESPACE_END
 
 #endif
