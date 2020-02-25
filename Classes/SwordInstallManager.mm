@@ -81,7 +81,7 @@ float status;
                     SwordInstallSource *is = [[SwordInstallSource alloc] initWithType:INSTALLSOURCE_TYPE_FTP];
                     [is setCaption:@"GADSDA"];
                     [is setSource:@"ftp.davidianapps.com"];
-                    [is setDirectory:@"/goldenbowl"];
+                    [is setDirectory:@"/srod"];
                     [is setUID:@"20081216195754"];
                     [self addInstallSource:is withReinitialize:NO];
                     
