@@ -97,11 +97,11 @@
 	}
 	
 	// Morph section:
-	if([swordModule hasFeature: SWMOD_FEATURE_MORPH]) {
-		MorphToggleRow = MorphRows++;
-		//MorphGreekRow = MorphRows++;
-		MorphSection = Sections++;
-	}
+//	if([swordModule hasFeature: SWMOD_FEATURE_MORPH]) {
+//		MorphToggleRow = MorphRows++;
+//		//MorphGreekRow = MorphRows++;
+//		MorphSection = Sections++;
+//	}
 	
 	// Lang section:
 	if([swordModule hasFeature: SWMOD_FEATURE_GREEKACCENTS]) {
