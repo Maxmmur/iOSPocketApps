@@ -256,10 +256,10 @@
 	// module LCSH -- Library of Congress Subject Heading
 	NSString *lcsh = [self configEntryForKey:@"LCSH"];
 	if(lcsh)
-		[ret appendFormat:@"<p><b>%@</b><br />&nbsp; &nbsp; &nbsp; %@</p>", NSLocalizedString(@"AboutModuleLCSH", @"Library of Congress Subject Heading"), lcsh];
+		[ret appendFormat:@"<p><b>%@</b><br />&nbsp; &nbsp; &nbsp; %@</p>", NSLocalizedString(@"AboutModuleLCSH", @"SRod Library Subject Category"), lcsh];
     
     // module type
-	[ret appendFormat:@"<p><b>%@</b>%@</p>", NSLocalizedString(@"AboutModuleType", @""), [self typeString]];
+//	[ret appendFormat:@"<p><b>%@</b>%@</p>", NSLocalizedString(@"AboutModuleType", @""), [self typeString]];
     
     // module lang
 	[ret appendFormat:@"<p><b>%@</b>%@</p>", NSLocalizedString(@"AboutModuleLang", @""), [self langString]];
