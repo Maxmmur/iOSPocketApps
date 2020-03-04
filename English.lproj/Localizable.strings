@@ -35,7 +35,7 @@
 "Error" = "Error";
 
 // Module About
-"AboutModuleName" = "Module name: ";
+"AboutModuleName" = "Module Name: ";
 "AboutModuleDescription" = "Description: ";
 "AboutModuleType" = "Type: ";
 "AboutModuleLang" = "Language: ";
@@ -43,7 +43,7 @@
 "AboutModuleVersionUnspecified" = "(unspecified)";
 "AboutModuleAboutText" = "About: ";
 "AboutModuleLicence" = "Distribution Licence: ";
-"AboutModuleLCSH" = "Library of Congress Subject Heading: ";
+"AboutModuleLCSH" = "SRod Library Subject Category: ";
 
 
 "Disclaimer" = "Disclaimer";
@@ -156,7 +156,7 @@
 "AboutModuleContainsMorphTags" = "Contains Morphological tags";
 "AboutModuleContainsFootnotes" = "Contains Footnotes";
 "AboutModuleContainsHeadings" = "Contains Headings";
-"AboutModuleContainsRedLetterWords" = "Words in Red";
+"AboutModuleContainsRedLetterWords" = "Contains Text Decoration";
 "AboutModuleContainsVariants" = "Contains Textual Variants";
 "AboutModuleContainsGreekAccents" = "Contains Greek Accents";
 "AboutModuleContainsScriptref" = "Contains Scriptural Cross-References";

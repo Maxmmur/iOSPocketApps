@@ -43,7 +43,7 @@
 "AboutModuleVersionUnspecified" = "(unspecified)";
 "AboutModuleAboutText" = "About: ";
 "AboutModuleLicence" = "Distribution Licence: ";
-"AboutModuleLCSH" = "Library of Congress Subject Heading: ";
+"AboutModuleLCSH" = "SRod Library Subject Category: ";
 
 
 "Disclaimer" = "Disclaimer";
