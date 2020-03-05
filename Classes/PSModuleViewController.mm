@@ -278,7 +278,10 @@
 }
 
 - (void)setEnabledNextButton:(BOOL)enabled {
-	[titleSegmentedControl setEnabled: enabled forSegmentAtIndex: 2];
+//	[titleSegmentedControl setEnabled: enabled forSegmentAtIndex: 2];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [titleSegmentedControl setEnabled: enabled forSegmentAtIndex: 2];
+    });
 }
 
 - (void)setEnabledPreviousButton:(BOOL)enabled {
@@ -287,7 +290,10 @@
 
 - (void)setTabTitle:(NSString*)title {
 	NSString *titleToDisplay = [PSModuleController createTitleRefString:title];
-	[titleSegmentedControl setTitle: titleToDisplay forSegmentAtIndex: 1];
+//	[titleSegmentedControl setTitle: titleToDisplay forSegmentAtIndex: 1];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [titleSegmentedControl setTitle: titleToDisplay forSegmentAtIndex: 1];
+    });
 	[PSModuleViewController setVoiceOverForRefSegmentedControlSubviews:titleSegmentedControl.subviews];
 }
 
