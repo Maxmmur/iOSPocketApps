@@ -156,7 +156,7 @@
 "AboutModuleContainsMorphTags" = "Contains Morphological tags";
 "AboutModuleContainsFootnotes" = "Contains Footnotes";
 "AboutModuleContainsHeadings" = "Contains Headings";
-"AboutModuleContainsRedLetterWords" = "Words of Christ in Red";
+"AboutModuleContainsRedLetterWords" = "Contains Text Decoration";
 "AboutModuleContainsVariants" = "Contains Textual Variants";
 "AboutModuleContainsGreekAccents" = "Contains Greek Accents";
 "AboutModuleContainsScriptref" = "Contains Scriptural Cross-References";
