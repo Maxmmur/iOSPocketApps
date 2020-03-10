@@ -69,7 +69,7 @@
 	switch(tabType) {
 		case BibleTab:
 		{
-			UITabBarItem *tbi = [[UITabBarItem alloc] initWithTitle:NSLocalizedString(@"TabBarTitleBible", @"SRod") image:[UIImage imageNamed:@"bible.png"] tag:10];
+			UITabBarItem *tbi = [[UITabBarItem alloc] initWithTitle:NSLocalizedString(@"TabBarTitleBible", @"SCode") image:[UIImage imageNamed:@"bible.png"] tag:10];
 			self.tabBarItem = tbi;
 			[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(setModuleNameViaNotification) name:NotificationNewPrimaryBible object:nil];
 			[[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(prevChapter) name:NotificationBibleSwipeRight object:nil];
@@ -301,7 +301,7 @@
 			[moduleButton setTitle: newTitle];
 		} else {
 			[moduleButton setTitle: NSLocalizedString(@"None", @"None")];
-			[titleSegmentedControl setTitle: @"SRod" forSegmentAtIndex: 1];
+			[titleSegmentedControl setTitle: @"SCode" forSegmentAtIndex: 1];
 			[self setEnabledNextButton: NO];
 			[self setEnabledPreviousButton: NO];
 		}
