@@ -81,16 +81,16 @@ float status;
                     SwordInstallSource *is = [[SwordInstallSource alloc] initWithType:INSTALLSOURCE_TYPE_FTP];
                     [is setCaption:@"GADSDA"];
                     [is setSource:@"ftp.davidianapps.com"];
-                    [is setDirectory:@"/srod"];
+                    [is setDirectory:@"/goldenbowl"];
                     [is setUID:@"20081216195754"];
                     [self addInstallSource:is withReinitialize:NO];
                     
 					
-//					[is setCaption:@"CrossWire 2"];
-//					[is setSource:@"ftp.crosswire.org"];
-//					[is setDirectory:@"/ftpmirror/pub/sword/betaraw"];
-//					[is setUID:@"20090224125400"];
-//					[self addInstallSource:is withReinitialize:NO];
+					[is setCaption:@"GADSDA 2"];
+					[is setSource:@"ftp.davidianapps.com"];
+					[is setDirectory:@"/goldenbowl2"];
+					[is setUID:@"20090224125400"];
+					[self addInstallSource:is withReinitialize:NO];
 					
 //                    [is setCaption:@"CrossWire av11n"];
 //                    [is setSource:@"ftp.crosswire.org"];
