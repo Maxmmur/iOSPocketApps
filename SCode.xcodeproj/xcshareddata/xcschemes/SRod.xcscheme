@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "ShepherdsRod.app"
-               BlueprintName = "SRod"
-               ReferencedContainer = "container:SRod.xcodeproj">
+               BuildableName = "Symbolic Codes.app"
+               BlueprintName = "SCode"
+               ReferencedContainer = "container:SCode.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "ShepherdsRod.app"
-            BlueprintName = "SRod"
-            ReferencedContainer = "container:SRod.xcodeproj">
+            BuildableName = "Symbolic Codes.app"
+            BlueprintName = "SCode"
+            ReferencedContainer = "container:SCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "ShepherdsRod.app"
-            BlueprintName = "SRod"
-            ReferencedContainer = "container:SRod.xcodeproj">
+            BuildableName = "Symbolic Codes.app"
+            BlueprintName = "SCode"
+            ReferencedContainer = "container:SCode.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
