@@ -81,7 +81,7 @@
 
 "AboutTitle" = "About";//change
 
-"TabBarTitleBible" = "SRod";
+"TabBarTitleBible" = "SCode";
 "TabBarTitleCommentary" = "SOP";//changed!
 "TabBarTitleDictionary" = "Resources";
 "TabBarTitleModules" = "Modules";
@@ -95,7 +95,7 @@
 "MMMBonjourLoading" = "Bonjour Loading...";
 "MMMIPLoading" = "IP Loading...";
 
-"Biblical Texts" = "SRod Modules";//changed!
+"Biblical Texts" = "SCode/Answerer Modules";//changed!
 "Commentaries" = "SOP Exerpts";//changed!
 "Lexicons / Dictionaries" = "Charts / Dictionaries";
 "Generic Books" = "Generic Books";
@@ -106,7 +106,7 @@
 "Maps" = "Maps";
 "Images" = "Images";
 
-"BibleHistoryTitle" = "SRod History";
+"BibleHistoryTitle" = "SCode History";
 "CommentaryHistoryTitle" = "SOP History";
 
 "None" = "None";
