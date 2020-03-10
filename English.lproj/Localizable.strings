@@ -284,9 +284,9 @@
 "SearchTypeExactRowShort" = "Exact phrase";
 "SearchRangeAllRow" = "Entire SRod";
 "SearchRangeAllRowShort" = "Entire SRod";
-"SearchRangeOTRow" = "Volumes and Tracts";
+"SearchRangeOTRow" = "Symbolic Codes";
 "SearchRangeOTRowShort" = "VT";
-"SearchRangeNTRow" = "Periodicals";
+"SearchRangeNTRow" = "Answerers";
 "SearchRangeNTRowShort" = "PE";
 "SearchStrongsRow" = "Search for a Strong's Number";
 "On" = "On";
